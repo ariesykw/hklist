@@ -11,7 +11,31 @@ youtube.com###video-masthead
 /googleads.
 /pagead2.
 /pubads.
+##div[id^="div-gpt-ad"]
+||alexametrics.com^$third-party
+||hkgolden.com/hkg.js
+||rtax.criteo.com^$third-party
+||scorecardresearch.com^
+||facebook.com*/impression.php
+||google-analytics.com/analytics.js
 /generate_204$image
+||googletagservices.com/tag/js/gpt.js$third-party
+/cdn-cgi/apps/head/*$script,~third-party
+@@*$stylesheet
+@@||fbcdn.net/rsrc.php/
+@@||google.com/jsapi$script,third-party
+@@*/jquery-$script
+@@*/jquery.$script
+*/images/banner$domain=~ipo.chinairn.com|~www.shuame.com|~exp.qq.com
+||kiwihk.net^$third-party
+||yimg.com^*/gemini.js
+||s.yimg.com/uv/dm/scripts/syndication.js
+||criteo.net^$third-party
+||optimix.asia^
+||facebook.com/tr/?
+||aralego.com^
+||hkgolden.com/js/fpall.js
+||hkgolden.com/mtg/
 /pagead/lvz?
 ||googleadservices.com
 ||youtube.com/api/stats/ads?
@@ -23,7 +47,6 @@ youtube.com###video-masthead
 ||github.com/_private/browser/stats
 ||collector.githubapp.com^
 ||google-analytics.com^$third-party
-@@*$stylesheet
 @@||githubusercontent.com^$image
 ||youtube.com/ptracking?
 /log_event?
@@ -31,11 +54,6 @@ youtube.com###video-masthead
 ://adcl.$domain=~adcl.com
 ||optimizely.com^$third-party
 ||addthis.com/
-||facebook.com*/impression.php
-||google-analytics.com/analytics.js
-@@*/jquery.$script
-@@*/jquery-$script
-@@||fbcdn.net/rsrc.php/
 ##.ad,div.ad960-90,div.ad-side,table.adtable,div.a_mu,div.a_h,div.ad_pic,div.wp.a_f,div.wp.a_t,div.a_pb,div.a_pt,div.a_pr,div.a_cn,#ggPar,#side-ad,#preAdContent,div.adbox
 *_960.$image
 ||cpro.
@@ -93,15 +111,12 @@ _ads_framework.
 ||krxd.net^$third-party
 /rhspushads/*
 /1x1.gif?
-||scorecardresearch.com^
 /fingerprint2.min.js
 /fingerprint.min.js
 popup.js^$domain=~qzone.qq.com|~flvcd.com|~mgpyh.com|~baidu.com|~qidian.com|~mop.com|~gameapp.qq.com
 /prebid.$script,domain=~prebid.org
 */ad_
 ||stats.$domain=~stats.gov.cn
-||facebook.com/tr/?
-||googletagservices.com/tag/js/gpt.js$third-party
 ||d1z2jf7jlzjs58.cloudfront.net^
 ||imasdk.googleapis.com^$third-party
 /addrtlog/*
@@ -130,7 +145,6 @@ yahoo.com##li[id^="ad-"]
 ||geo.yahoo.com^
 /px.gif?
 ||ads.
-||yimg.com^*/gemini.js
 /moneyball/ads/*
 ||s.yimg.com^*/audience/
 ||s.yimg.com/ja/ap/$script,subdocument,domain=hk.news.yahoo.com|hk.yahoo.com|tw.news.yahoo.com|tw.stock.yahoo.com|tw.yahoo.com
@@ -151,7 +165,6 @@ yahoo.com###ysm-umu
 yahoo.com##a[target="_blank"][href^="https://beap.gemini.yahoo.com/mbclk?"]
 ##.ad-top
 ||yimg.com^*/ywa.js
-##div[id^="div-gpt-ad"]
 ##.ad-wrapper
 ||yahoo.com/sdarla/
 1050talk.com,4chan.org,altervista.org,amazon.com,aol.com,ap.org,awfuladvertisements.com,batmanstream.com,bitcoinmonitor.com,braingle.com,campusrn.com,chicagonow.com,cocoia.com,cryptoarticles.com,dailydigestnews.com,daisuki.net,devshed.com,djmickbabes.com,downforeveryoneorjustme.com,drakulastream.eu,earthtechling.com,esquire.com,fantom-xp.com,farmville.com,fivethirtyeight.com,fosswire.com,fullrip.net,g4tv.com,gifts.com,golackawanna.com,google.com,guiminer.org,helpwithwindows.com,hknepaliradio.com,ieradio.org,ifunnyplanet.com,ifyoulaughyoulose.com,imageshack.us,infowat.com,instapaper.com,internetradiouk.com,investorschronicle.co.uk,jamaicaradio.net,jamendo.com,jigzone.com,learnhub.com,legendofhallowdega.com,libertychampion.com,linkedin.com,livevss.net,loveshack.org,lshunter.tv,macstories.net,marketingpilgrim.com,mbta.com,milkandcookies.com,miningreview.com,msnbc.com,mydallaspost.com,nbcnews.com,neoseeker.com,nepaenergyjournal.com,ninemsn.com.au,nzherald.co.nz,omgili.com,onlineradios.in,phonezoo.com,politicops.com,printitgreen.com,psdispatch.com,psu.com,queensberry-rules.com,radio.co.ug,radio.com.gh,radio.com.lk,radio.net.bd,radio.net.pk,radio.or.ke,radio.org.ng,radio.org.nz,radio.org.ph,radioau.net,radionp.com,radioonline.co.id,radioonline.my,radioonline.vn,radiosa.org,radiosingapore.org,radioth.net,radiowebsites.org,rapidshare-downloads.com,religionlo.com,reversegif.com,robotchicken.com,saportareport.com,sciencerecorder.com,shop4freebies.com,slidetoplay.com,socialmarker.com,statecolumn.com,streamhunter.eu,technorati.com,theabingtonjournal.com,theoswatch.com,thetelegraph.com,timesleader.com,torrentbutler.eu,totaljerkface.com,totallycrap.com,trinidadradiostations.net,tutorialized.com,twitch.tv,ultimate-rihanna.com,vetstreet.com,vidsn.com,vladtv.com,wallpapers-diq.com,wefunction.com,wiki-domains.net,womensradio.com,xe.com,yahoo.com,youbeauty.com,ytconv.net,zootool.com###ad
@@ -165,7 +178,6 @@ mail.yahoo.com##div#msg-list .list-view .ml-bg:not(.list-view-item-container)
 ||networld.hk^$third-party
 */300x250_
 /atrk.js
-||criteo.net^$third-party
 @@||uwants.com/include/*/swfaddress.js
 ###ad_text:not(textarea)
 ###ad_thread1_1
@@ -215,20 +227,8 @@ uwants.com##.showpx1
 @@/adgpt.$domain=gotrip.hk|nmplus.hk|weekendhk.com
 ||instagram.com/logging_client_events
 ##.adsbox
-||kiwihk.net^$third-party
-||s.yimg.com/uv/dm/scripts/syndication.js
-||alexametrics.com^$third-party
-||hkgolden.com/hkg.js
-||rtax.criteo.com^$third-party
-/cdn-cgi/apps/head/*$script,~third-party
-@@||google.com/jsapi$script,third-party
 hkgolden.com##span[id^="lineImage"]
 hkgolden.com##td[style^="background-color: #F3F2F1; height: 100px;"]
-||aralego.com^
-*/images/banner$domain=~ipo.chinairn.com|~www.shuame.com|~exp.qq.com
-||hkgolden.com/js/fpall.js
-||hkgolden.com/mtg/
-||optimix.asia^
 hkgolden.com###mainTopicTable > tbody > tr:nth-child(3):not([id])
 hkgolden.com###mainTopicTable > tbody > tr[id] + tr:not([id])
 */ad-
