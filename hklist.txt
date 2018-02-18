@@ -1,8 +1,9 @@
 [Adblock Plus 2.0]
 ! title: hklist
-! Version: 20180218
-! Expires: 7 days
+! Version: 20180219
+! Expires: 1 days
 ! Homepage: https://github.com/ariesykw/hklist
+!/favicon.ico$image,third-party,domain=~reddit.com
 youtube.com###video-masthead
 ###watch7-sidebar-ads
 ##.masthead-ad-control
@@ -31,69 +32,94 @@ youtube.com###video-masthead
 @@*/jquery.$script
 @@*$stylesheet
 @@||fbcdn.net/rsrc.php/
-@@*/jquery-$script
-~mail.google.com##.adsbygoogle,div.ads
+##.adsbygoogle
 /cdn-cgi/apps/head/*$script,~third-party
+/atrk.js
+||twitter.com/i/jot
+###bottomAd
+##.adunit
+##.sticky-ad
+||googletagmanager.com/gtm.js?$third-party
+||googletagservices.com/tag/js/gpt.js$third-party
+/generate_204$image
+/pagead/lvz?
+||googleadservices.com
+||youtube.com/api/stats/playback?
+||youtube.com/api/stats/qoe?
+||youtube.com/*_204?$~xmlhttprequest
+||youtube.com/ptracking?
+/log_event?
+-pagead-id.
+@@||doubleclick.net/instream/ad_status.js
+@@||youtube.com/api/stats/watchtime?$image,domain=youtube.com
+||paypalobjects.com^*/pixel.gif
+##.ad,div.ad960-90,div.ad-side,table.adtable,div.a_mu,div.a_h,div.ad_pic,div.wp.a_f,div.wp.a_t,div.a_pb,div.a_pt,div.a_pr,div.a_cn,#ggPar,#side-ad,#preAdContent,div.adbox
+||d17m68fovwmgxj.cloudfront.net^
+||appier.net^$third-party
+.net/p.gif?
+/chartbeat.js
+@@*/jquery-$script
+@@||youtube.com/iframe_api$third-party
+||cpro.
+||dup.baidustatic.com^
+||ithome.com/file/js/money/
+/hitcount/*
+/RenderLapinBlock?
+facebook.com###rightCol .pagelet.egoOrganicColumn
+facebook.com##.photoUfiContainer .pagelet.egoOrganicColumn
+_pixel_test/?
+facebook.com###globalContainer .pagelet.egoOrganicColumn
+||pixel.facebook.com^
+||optimix.asia^
+/fingerprint2.min.js
+##.advertisementCenterer
+||connect.facebook.net^*/fbevents.js$third-party
+||log.pinterest.com^
+.openx.$domain=~openx.com
+||yimg.com^*/gemini.js
+||scorecardresearch.com^
+||crazyegg.com^$third-party
+/prebid.$script,domain=~prebid.org
+/ad-inserter/*
+@@/adgpt.$domain=gotrip.hk|nmplus.hk|weekendhk.com
+@@||facebook.com/common/referer_frame.php$subdocument,domain=facebook.com
+||google-analytics.com^$third-party
+||coinhive.com
+@@||facebook.com/ajax/photos/logging/session_logging.php?$xmlhttprequest
+~mail.google.com##.adsbygoogle,div.ads
 ||popads.net^$third-party
 @@||gravatar.com/avatar$image,third-party
 ||spotscenered.info^$third-party
 @@/wp-content/plugins/akismet/*$script,~third-party,domain=~gaytube.com|~pornhub.com|~redtube.com|~redtube.com.br|~tube8.com|~tube8.es|~tube8.fr|~xtube.com|~youjizz.com|~youporn.com|~youporngay.com
 ||rtax.criteo.com^$third-party
-||scorecardresearch.com^
-/generate_204$image
-||googletagservices.com/tag/js/gpt.js$third-party
 @@||google.com/jsapi$script,third-party
 */images/banner$domain=~ipo.chinairn.com|~www.shuame.com|~exp.qq.com
 ||kiwihk.net^$third-party
-||yimg.com^*/gemini.js
 ||s.yimg.com/uv/dm/scripts/syndication.js
 ||criteo.net^$third-party
-||optimix.asia^
 ||facebook.com/tr/?
 ||hkgolden.com/js/fpall.js
 ||hkgolden.com/mtg/
-/pagead/lvz?
-||googleadservices.com
 ||youtube.com/api/stats/ads?
-||youtube.com/api/stats/playback?
-||youtube.com/api/stats/qoe?
-||youtube.com/*_204?$~xmlhttprequest
 ||youtube.com/get_midroll_
 ||youtube.com/pagead/
 ||github.com/_private/browser/stats
 ||collector.githubapp.com^
-||google-analytics.com^$third-party
 @@||githubusercontent.com^$image
-||youtube.com/ptracking?
-/log_event?
--pagead-id.
 ://adcl.$domain=~adcl.com
 ||optimizely.com^$third-party
-##.ad,div.ad960-90,div.ad-side,table.adtable,div.a_mu,div.a_h,div.ad_pic,div.wp.a_f,div.wp.a_t,div.a_pb,div.a_pt,div.a_pr,div.a_cn,#ggPar,#side-ad,#preAdContent,div.adbox
 *_960.$image
-||cpro.
-||dup.baidustatic.com^
-||ithome.com/file/js/money/
-/hitcount/*
 ||ja1.gamersky.com/
 ##.ad_r
 ||click.gamersky.com/
 ||nsclick.baidu.com/$domain=~www.hao123.com
 ||ggxt.net
-@@||doubleclick.net/instream/ad_status.js
-@@||youtube.com/api/stats/watchtime?$image,domain=youtube.com
 ||www.youtube.com/annotations_invideo?$xmlhttprequest
 ||cx.atdmt.com^
-@@||facebook.com/common/referer_frame.php$subdocument,domain=facebook.com
-facebook.com###rightCol .pagelet.egoOrganicColumn
 facebook.com###stream_pagelet > #pagelet_megaphone
 ##.AdBox
-||pixel.facebook.com^
 /hads-
 ||facebook.com^*/impression_logging/
-_pixel_test/?
-facebook.com##.photoUfiContainer .pagelet.egoOrganicColumn
-@@||facebook.com/ajax/photos/logging/session_logging.php?$xmlhttprequest
 ||facebook.com/common/scribe_endpoint.php
 /adservice.
 ||google.*/gen_204?$~xmlhttprequest
@@ -103,14 +129,11 @@ facebook.com##.photoUfiContainer .pagelet.egoOrganicColumn
 @@||upload.wikimedia.org/wikipedia/
 ||segment.io^$third-party
 /admantx/*
-||connect.facebook.net^*/fbevents.js$third-party
 /chartbeat_
-||googletagmanager.com/gtm.js?$third-party
 _ads_framework.
 ||reuters.com/reuters_bootstrap.js
 ||reuters.com/reuters_gpt_bootstrap*.js
 @@||segment.com/analytics.js/*/analytics.min.js$script
-@@||youtube.com/iframe_api$third-party
 ###adHeaderTop
 ###adTextLink
 ||siftscience.com^$third-party
@@ -123,10 +146,8 @@ _ads_framework.
 ||krxd.net^$third-party
 /rhspushads/*
 /1x1.gif?
-/fingerprint2.min.js
 /fingerprint.min.js
 popup.js^$domain=~qzone.qq.com|~flvcd.com|~mgpyh.com|~baidu.com|~qidian.com|~mop.com|~gameapp.qq.com
-/prebid.$script,domain=~prebid.org
 */ad_
 ||d1z2jf7jlzjs58.cloudfront.net^
 ||imasdk.googleapis.com^$third-party
@@ -188,7 +209,6 @@ mail.yahoo.com##div#msg-list .list-view .ml-bg:not(.list-view-item-container)
 ||yahoo.com/neo/darla/
 ||networld.hk^$third-party
 */300x250_
-/atrk.js
 @@||uwants.com/include/*/swfaddress.js
 ###ad_text:not(textarea)
 ###ad_thread1_1
@@ -204,12 +224,10 @@ uwants.com##.showpx1
 */ad/$domain=~www.xingk.cc|~iqiyi.com
 ##.ad-area
 ||ysm.yahoo.com^
-##.adsbygoogle
 ||sitetag.us^$third-party
 .snowplowanalytics.$domain=~snowplowanalytics.com
 /serveads.
 ||quantserve.com^$~object-subrequest,third-party
-###bottomad
 ##a[href^="http://adf.ly/?id="]
 /ad_top_
 ||fridrici.info^$third-party
@@ -224,17 +242,10 @@ uwants.com##.showpx1
 ||edigitalsurvey.com^$third-party
 ||effectivemeasure.net^$third-party
 ||ssc.api.bbc.com^
-/chartbeat.js
 ||crwdcntrl.net^$third-party
 ||dynatrace.com^$third-party
 ||sa.bbc.co.uk^
-##.advertisementCenterer
 ||hm.baidu.com/
-||log.pinterest.com^
-.openx.$domain=~openx.com
-||crazyegg.com^$third-party
-/ad-inserter/*
-@@/adgpt.$domain=gotrip.hk|nmplus.hk|weekendhk.com
 ||instagram.com/logging_client_events
 ##.adsbox
 hkgolden.com##span[id^="lineImage"]
@@ -272,7 +283,6 @@ ctfile.com###alipay-qhb
 ##.ad-d
 ||popin.cc^$third-party
 ||analytics.twitter.com^
-||twitter.com/i/jot
 ||stat.
 ||sohu.com^*/cookie?
 /count.php?
@@ -288,7 +298,6 @@ ctfile.com###alipay-qhb
 ||xyz^$third-party
 /ad-specs.
 ||analytics.thenewslens.com^
-||appier.net^$third-party
 ||onthe.io^$third-party
 ||rackcdn.com/stf.js
 /tracker.min.js
