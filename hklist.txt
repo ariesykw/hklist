@@ -23,12 +23,31 @@ youtube.com###video-masthead
 ||youtube.com/ptracking?
 /log_event?
 -pagead-id.
+://adcl.$domain=~adcl.com
+||optimizely.com^$third-party
+||addthis.com/
+||facebook.com*/impression.php
+||google-analytics.com/analytics.js
+@@*/jquery.$script
+@@*/jquery-$script
+@@*$stylesheet
+@@||fbcdn.net/rsrc.php/
+##.ad,div.ad960-90,div.ad-side,table.adtable,div.a_mu,div.a_h,div.ad_pic,div.wp.a_f,div.wp.a_t,div.a_pb,div.a_pt,div.a_pr,div.a_cn,#ggPar,#side-ad,#preAdContent,div.adbox
+*_960.$image
+||cpro.
+||dup.baidustatic.com^
+||hm.baidu.com^$third-party
+||ithome.com/file/js/money/
+/hitcount/*
+||ja1.gamersky.com/
+##.ad_r
+||click.gamersky.com/
+||nsclick.baidu.com/$domain=~www.hao123.com
+||ggxt.net
 @@||doubleclick.net/instream/ad_status.js
 @@||youtube.com/api/stats/watchtime?$image,domain=youtube.com
-@@*$stylesheet
 ||www.youtube.com/annotations_invideo?$xmlhttprequest
 ||cx.atdmt.com^
-@@||fbcdn.net/rsrc.php/
 @@||facebook.com/common/referer_frame.php$subdocument,domain=facebook.com
 facebook.com###rightCol .pagelet.egoOrganicColumn
 facebook.com###stream_pagelet > #pagelet_megaphone
@@ -71,12 +90,8 @@ popup.js^$domain=~qzone.qq.com|~flvcd.com|~mgpyh.com|~baidu.com|~qidian.com|~mop
 /prebid.$script,domain=~prebid.org
 */ad_
 ||stats.$domain=~stats.gov.cn
-||facebook.com*/impression.php
 ||facebook.com/tr/?
-||google-analytics.com/analytics.js
 ||googletagservices.com/tag/js/gpt.js$third-party
-@@*/jquery.$script
-@@*/jquery-$script
 ||d1z2jf7jlzjs58.cloudfront.net^
 ||imasdk.googleapis.com^$third-party
 /addrtlog/*
@@ -137,7 +152,6 @@ mail.yahoo.com##div#msg-list .list-view .ml-bg:not(.list-view-item-container)
 /mbads?
 */ads/
 ||yahoo.com/neo/darla/
-##.ad,div.ad960-90,div.ad-side,table.adtable,div.a_mu,div.a_h,div.ad_pic,div.wp.a_f,div.wp.a_t,div.a_pb,div.a_pt,div.a_pr,div.a_cn,#ggPar,#side-ad,#preAdContent,div.adbox
 ||networld.hk^$third-party
 ||google-analytics.com^$third-party
 */300x250_
@@ -217,7 +231,6 @@ hkgolden.com###mainTopicTable > tbody > tr[id] + tr:not([id])
 /ping.gif?
 @@||ad.doubleclick.net/ddm/$xmlhttprequest,domain=twitch.tv
 ##.companion-ad
-||dup.baidustatic.com^
 ||cnzz.
 @@||gravatar.com/avatar$image,third-party
 baidu.com##.ad-platform-tips
@@ -287,7 +300,6 @@ ctfile.com###alipay-qhb
 ||geo.query.yahoo.com^$xmlhttprequest
 ||flickr.com/beacon_client_api_timings.gne
 ||flickr.com/beacon_page_timings.gne
-||optimizely.com^$third-party
 ||microsoft.com/collect/
 ||adnxs.com^
 .com/c.gif?
@@ -409,7 +421,6 @@ _160_600.
 ||adsymptotic.com^$third-party
 ||tapad.com^$third-party
 ||connexity.net^$third-party
-||addthis.com/
 ||track.spots.im^
 ||taboola.com^*/log/
 ||perfectmarket.com^$third-party
