@@ -37,7 +37,6 @@ youtube.com###video-masthead
 ||popads.net^$third-party
 @@||gravatar.com/avatar$image,third-party
 ||spotscenered.info^$third-party
-/favicon.ico$image,third-party,domain=~reddit.com
 @@/wp-content/plugins/akismet/*$script,~third-party,domain=~gaytube.com|~pornhub.com|~redtube.com|~redtube.com.br|~tube8.com|~tube8.es|~tube8.fr|~xtube.com|~youjizz.com|~youporn.com|~youporngay.com
 ||rtax.criteo.com^$third-party
 ||scorecardresearch.com^
