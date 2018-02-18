@@ -82,6 +82,13 @@ _ads_framework.
 @@||youtube.com/iframe_api$third-party
 ###adHeaderTop
 ###adTextLink
+||siftscience.com^$third-party
+||ping.smyte.com^
+||pubnub.com/time/*uuid=$third-party
+||hotjar.com^$third-party
+||googletagmanager.com/gtag/$third-party
+@@||google.com/recaptcha/$script
+@@||gstatic.com/recaptcha/$script
 ~mail.google.com##.adsbygoogle,div.ads
 ||krxd.net^$third-party
 /rhspushads/*
@@ -188,7 +195,6 @@ uwants.com##.showpx1
 ||newrelic.com/
 |https://$third-party,domain=adf.ly|s1-adfly.com
 ||media.$third-party,script,subdocument
-||hotjar.com^$third-party
 ##.adsense-ad
 ##.mpu-ad
 ##.native-ad
@@ -226,8 +232,6 @@ hkgolden.com##td[style^="background-color: #F3F2F1; height: 100px;"]
 hkgolden.com###mainTopicTable > tbody > tr:nth-child(3):not([id])
 hkgolden.com###mainTopicTable > tbody > tr[id] + tr:not([id])
 */ad-
-@@||google.com/recaptcha/$script
-@@||gstatic.com/recaptcha/$script
 ||mixpanel.com^$third-party
 ||amazon-adsystem.com
 /ping.gif?
@@ -271,7 +275,6 @@ ctfile.com###alipay-qhb
 001cw.com,0379home.com,10jqka.com.cn,2345.cn,234fang.com,3dmgame.com,3g.tianya.cn,3gsc.com.cn,5011.net,52youpiao.com,72bbb.com,72g.com,8btc.com,acg.bz,acgbenzi.com,aohua.com.au,baiduyunpan.net,baike.com,banyungong.org,bbs-mychat.com,cailianpress.com,cdyee.com,ce.cn,cfanz.cn,chddh.com,chinaiiss.com,chinaqking.com,chinatimes.com,chinatruck.org,chinaz.com,cnsoftnews.com,codepub.com,cq.xinhuanet.com,dav01.com,discuss.com.hk,djwma.com,do189.com,douban.com,dvbcn.com,dzwww.com,eastday.com,eworldship.com,focus.cn,gminfo.cn,gongkong.com,hanhuazu.cc,hkgalden.com,house.jschina.com.cn,huizhi123.com,iciba.com,ifeng.com,ipeen.com.tw,itavcn.com,jrj.com.cn,junshi.cc,jzclass.com,kumi.cn,kunming.cn,lawtv.com.cn,lyd.com.cn,lzep.cn,m.tianya.cn,marstv.com,maxpda.com,moxing.net,mrhso.com,ncdiy.com,neotv.com.cn,newsmth.net,njdaily.cn,people.com.cn,pharmnet.com.cn,pixnet.net,pptv.com,ptbus.com,qihaa.cn,sd888.org,shanhe.cc,shenchuang.com,sogou.com,tiexue.net,titan24.com,tpy888.cn,tv.sohu.com,u-car.com.tw,wallstreetcn.com,weather.com.cn,wordlm.com,wuhan.net.cn,wuseng.com,xs99.cc,xun9u.com,xyfdcw.com.cn,yawin.cn,ydss.cn,yesky.com,yicheshi.com,yqxs.net,zhuhai.gd.cn,zjstv.com##.ad
 ||tajs.qq.com/$domain=~wuxia.qq.com
 *.zhanzhang.
-||googletagmanager.com/gtag/$third-party
 ||s.360.cn^
 ||xyz^$third-party
 /ad-specs.
