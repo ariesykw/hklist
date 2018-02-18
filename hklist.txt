@@ -415,3 +415,10 @@ _160_600.
 ||perfectmarket.com^$third-party
 @@||aolcdn.com^*/adsWrapper.$domain=aol.com|engadget.com|games.com|huffingtonpost.com|mapquest.com|stylelist.ca
 ||spot.im/api/tracker/
+###ad_headerbanner
+*/stat.
+||lsforum.net/cam2/*.gif
+##.yahooad
+||lsforum.net/yahooad/
+||overture.com^$third-party
+*/adimages/$image,object,object-subrequest
