@@ -20,6 +20,11 @@ youtube.com###video-masthead
 ||youtube.com/*_204?$~xmlhttprequest
 ||youtube.com/get_midroll_
 ||youtube.com/pagead/
+||github.com/_private/browser/stats
+||collector.githubapp.com^
+||google-analytics.com^$third-party
+@@*$stylesheet
+@@||githubusercontent.com^$image
 ||youtube.com/ptracking?
 /log_event?
 -pagead-id.
@@ -30,7 +35,6 @@ youtube.com###video-masthead
 ||google-analytics.com/analytics.js
 @@*/jquery.$script
 @@*/jquery-$script
-@@*$stylesheet
 @@||fbcdn.net/rsrc.php/
 ##.ad,div.ad960-90,div.ad-side,table.adtable,div.a_mu,div.a_h,div.ad_pic,div.wp.a_f,div.wp.a_t,div.a_pb,div.a_pt,div.a_pr,div.a_cn,#ggPar,#side-ad,#preAdContent,div.adbox
 *_960.$image
@@ -69,7 +73,6 @@ facebook.com##.photoUfiContainer .pagelet.egoOrganicColumn
 ||segment.io^$third-party
 /admantx/*
 ||connect.facebook.net^*/fbevents.js$third-party
-/favicon.ico$image,third-party,domain=~reddit.com
 /chartbeat_
 ||googletagmanager.com/gtm.js?$third-party
 _ads_framework.
@@ -153,7 +156,6 @@ mail.yahoo.com##div#msg-list .list-view .ml-bg:not(.list-view-item-container)
 */ads/
 ||yahoo.com/neo/darla/
 ||networld.hk^$third-party
-||google-analytics.com^$third-party
 */300x250_
 /atrk.js
 ||criteo.net^$third-party
