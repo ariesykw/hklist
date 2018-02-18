@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! title: hklist
-! Version: 20180218
-! Expires: 7 days
+! Version: 20180219
+! Expires: 1 days
 ! Homepage: https://github.com/ariesykw/hklist
 !/favicon.ico$image,third-party,domain=~reddit.com
 */ad/$domain=~www.xingk.cc|~iqiyi.com|~baby-kingdom.com
@@ -9,22 +9,64 @@ youtube.com###video-masthead
 ###watch7-sidebar-ads
 ##.masthead-ad-control
 ##.video-ads
+##.text_ads
+||pagefair.com^$third-party
+||pagefair.net^$third-party
+||scorecardresearch.com^
+||quantserve.com^$~object-subrequest,third-party
+||3lift.com^$third-party
+||imasdk.googleapis.com^$third-party
+||media.$third-party,script,subdocument
+||ntv.io^$third-party
+||crazyegg.com^$third-party
+##.ad-panel
+gearburn.com,marinmagazine.com,memeburn.com,motorburn.com,nhbr.com,scpr.org,shop.com,techinsider.io,theonion.com,urbandictionary.com,ventureburn.com,wareable.com##.dfp
+/adserver-
+=300x250&
+||sonobi.com^$third-party
+||click.udimg.com^
+||rubiconproject.com^$third-party
+||adnxs.com^
+/prebid.$script,domain=~prebid.org
+||1rx.io^$third-party
+||google-analytics.com/analytics.js
+||googletagservices.com/tag/js/gpt.js$third-party
+@@*$stylesheet
+@@||cloudfront.net/assets/$script,third-party
+##.adsbox
+||google-analytics.com^$third-party
+@@||ad.doubleclick.net/ddm/$xmlhttprequest,domain=twitch.tv
+/chartbeat.js
+||amazon-adsystem.com
+||newrelic.com/
+||log.pinterest.com^
+/pagead2.
+||twitter.com/i/jot
+||facebook.com*/impression.php
+@@||ad.doubleclick.net/favicon.ico$image
+@@||fbcdn.net/rsrc.php/
+##.block-ad
+##.topBannerAd
+||connect.facebook.net^*/fbevents.js$third-party
+*/piwik.
+||t.9gag.com^
+||deployads.com^$third-party
+||web-t.9gag.com^
+@@||google.com/recaptcha/$script
+@@||gstatic.com/recaptcha/$script
 ##.ytp-ad-progress-list
 /googleads.
-/pagead2.
 /pubads.
 ||ads.
 /js/analytics.
 ||amung.us^$third-party
 ||googletagmanager.com/gtag/$third-party
-@@*$stylesheet
 @@*/jquery.$script
 ##.adv_box
 ||popads.net^$third-party
 /\:\/\/[a-z0-9]{5,32}\.(bid|com)\/[0-9A-Za-z]{2,9}\.(html?|css|js|aspx?|asp?).*[0-9]{10}/$third-party,script,stylesheet
 /cdn-cgi/apps/head/*$script,~third-party
 ||openload.co/log$~script,domain=openload.co
-||twitter.com/i/jot
 ##div[id^="div-gpt-ad"]
 ||alexametrics.com^$third-party
 ||hkgolden.com/hkg.js
@@ -35,14 +77,10 @@ youtube.com###video-masthead
 ||aralego.com^
 ||hm.baidu.com^$third-party
 ||scupio.com^$third-party
-||newrelic.com/
 ||addthis.com/
 ||stats.$domain=~stats.gov.cn
 ||googlesyndication.com
-||facebook.com*/impression.php
 ||facebook.com/xti.php?
-||google-analytics.com/analytics.js
-@@||fbcdn.net/rsrc.php/
 ##.adsbygoogle
 /pagead/lvz?
 ||googleadservices.com
@@ -57,7 +95,6 @@ youtube.com###video-masthead
 @@||youtube.com/api/stats/watchtime?$image,domain=youtube.com
 /generate_204$image
 /api/ads/*
-||googletagservices.com/tag/js/gpt.js$third-party
 ||youtube.com/api/stats/ads?
 ||youtube.com/get_midroll_
 @@||doubleclick.net/instream/ad_status.js
@@ -65,12 +102,10 @@ youtube.com###video-masthead
 /log_interaction?
 ###footer_ad
 001cw.com,0379home.com,10jqka.com.cn,2345.cn,234fang.com,3dmgame.com,3g.tianya.cn,3gsc.com.cn,5011.net,52youpiao.com,72bbb.com,72g.com,8btc.com,acg.bz,acgbenzi.com,aohua.com.au,baiduyunpan.net,baike.com,banyungong.org,bbs-mychat.com,cailianpress.com,cdyee.com,ce.cn,cfanz.cn,chddh.com,chinaiiss.com,chinaqking.com,chinatimes.com,chinatruck.org,chinaz.com,cnsoftnews.com,codepub.com,cq.xinhuanet.com,dav01.com,discuss.com.hk,djwma.com,do189.com,douban.com,dvbcn.com,dzwww.com,eastday.com,eworldship.com,focus.cn,gminfo.cn,gongkong.com,hanhuazu.cc,hkgalden.com,house.jschina.com.cn,huizhi123.com,iciba.com,ifeng.com,ipeen.com.tw,itavcn.com,jrj.com.cn,junshi.cc,jzclass.com,kumi.cn,kunming.cn,lawtv.com.cn,lyd.com.cn,lzep.cn,m.tianya.cn,marstv.com,maxpda.com,moxing.net,mrhso.com,ncdiy.com,neotv.com.cn,newsmth.net,njdaily.cn,people.com.cn,pharmnet.com.cn,pixnet.net,pptv.com,ptbus.com,qihaa.cn,sd888.org,shanhe.cc,shenchuang.com,sogou.com,tiexue.net,titan24.com,tpy888.cn,tv.sohu.com,u-car.com.tw,wallstreetcn.com,weather.com.cn,wordlm.com,wuhan.net.cn,wuseng.com,xs99.cc,xun9u.com,xyfdcw.com.cn,yawin.cn,ydss.cn,yesky.com,yicheshi.com,yqxs.net,zhuhai.gd.cn,zjstv.com##.ad
-||scorecardresearch.com^
 ||networld.hk^$third-party
 */ads/
 /aeiou/*$domain=discuss.com.hk|uwants.com
 /overture/*$script,subdocument
-||google-analytics.com^$third-party
 /atrk.js
 ||criteo.net^$third-party
 @@*/jquery-$script
@@ -91,16 +126,10 @@ youtube.com###video-masthead
 ###ad-skin
 ##.ad,div.ad960-90,div.ad-side,table.adtable,div.a_mu,div.a_h,div.ad_pic,div.wp.a_f,div.wp.a_t,div.a_pb,div.a_pt,div.a_pr,div.a_cn,#ggPar,#side-ad,#preAdContent,div.adbox
 ##.home-top-right-ads
-##.text_ads
 ##.wikia-ad
-/adserver-
 ||casalemedia.com^$third-party
-||amazon-adsystem.com
 ||petametrics.com^$third-party
-||quantserve.com^$~object-subrequest,third-party
-||rubiconproject.com^$third-party
 ||pubmatic.com^$third-party
-||adnxs.com^
 ||amazonaws.com/ki.js/
 /spc.php
 .openx.$domain=~openx.com
@@ -130,7 +159,6 @@ youtube.com###video-masthead
 ||d17m68fovwmgxj.cloudfront.net^
 ||appier.net^$third-party
 .net/p.gif?
-/chartbeat.js
 @@||youtube.com/iframe_api$third-party
 ||cpro.
 ||dup.baidustatic.com^
@@ -145,11 +173,7 @@ facebook.com###globalContainer .pagelet.egoOrganicColumn
 ||optimix.asia^
 /fingerprint2.min.js
 ##.advertisementCenterer
-||connect.facebook.net^*/fbevents.js$third-party
-||log.pinterest.com^
 ||yimg.com^*/gemini.js
-||crazyegg.com^$third-party
-/prebid.$script,domain=~prebid.org
 /ad-inserter/*
 @@/adgpt.$domain=gotrip.hk|nmplus.hk|weekendhk.com
 @@||facebook.com/common/referer_frame.php$subdocument,domain=facebook.com
@@ -200,8 +224,6 @@ _ads_framework.
 ||ping.smyte.com^
 ||pubnub.com/time/*uuid=$third-party
 ||hotjar.com^$third-party
-@@||google.com/recaptcha/$script
-@@||gstatic.com/recaptcha/$script
 ||krxd.net^$third-party
 /rhspushads/*
 /1x1.gif?
@@ -209,7 +231,6 @@ _ads_framework.
 popup.js^$domain=~qzone.qq.com|~flvcd.com|~mgpyh.com|~baidu.com|~qidian.com|~mop.com|~gameapp.qq.com
 */ad_
 ||d1z2jf7jlzjs58.cloudfront.net^
-||imasdk.googleapis.com^$third-party
 /addrtlog/*
 ||com/ads
 ||google.com/pagead/
@@ -280,7 +301,6 @@ uwants.com##.showpx1
 |http://$third-party,domain=adf.ly|s1-adfly.com
 /\.com\/[\w\/\-.+]{320,}/$subdocument,third-party
 |https://$third-party,domain=adf.ly|s1-adfly.com
-||media.$third-party,script,subdocument
 ##.adsense-ad
 ##.mpu-ad
 ##.native-ad
@@ -292,14 +312,12 @@ uwants.com##.showpx1
 ||sa.bbc.co.uk^
 ||hm.baidu.com/
 ||instagram.com/logging_client_events
-##.adsbox
 hkgolden.com##span[id^="lineImage"]
 hkgolden.com##td[style^="background-color: #F3F2F1; height: 100px;"]
 hkgolden.com###mainTopicTable > tbody > tr:nth-child(3):not([id])
 hkgolden.com###mainTopicTable > tbody > tr[id] + tr:not([id])
 */ad-
 ||mixpanel.com^$third-party
-@@||ad.doubleclick.net/ddm/$xmlhttprequest,domain=twitch.tv
 ##.companion-ad
 ||cnzz.
 baidu.com##.ad-platform-tips
@@ -390,7 +408,6 @@ ctfile.com###alipay-qhb
 000webhost.com,1380thebiz.com,1520thebiz.com,1520wbzw.com,760kgu.biz,880thebiz.com,about.com,afro.com,allflicks.net,allpeliculas.com,allrecipes.com,am1260thebuzz.com,amctv.com,animax-asia.com,annahar.com,ap.org,araratadvertiser.com.au,areanews.com.au,armidaleexpress.com.au,avclub.com,avonadvocate.com.au,axn-asia.com,barossaherald.com.au,batemansbaypost.com.au,baysidebulletin.com.au,begadistrictnews.com.au,bellingencourier.com.au,bendigoadvertiser.com.au,benfergusonshow.com,betvasia.com,bigthink.com,biz1190.com,bizarremag.com,blacktownsun.com.au,blayneychronicle.com.au,bloomberg.com,bluemountainsgazette.com.au,boingboing.net,bombalatimes.com.au,boorowanewsonline.com.au,bordermail.com.au,braidwoodtimes.com.au,bravotv.com,brimbankweekly.com.au,bunburymail.com.au,business1110ktek.com,business1570.com,businessinsurance.com,busseltonmail.com.au,camdenadvertiser.com.au,camdencourier.com.au,canowindranews.com.au,capitalfm.co.ke,caranddriver.com,carrierethernetnews.com,caseyweekly.com.au,caseyweeklycranbourne.com.au,centraladvocate.com.au,centralwesterndaily.com.au,cessnockadvertiser.com.au,christianradio.com,cinemablend.com,classicalmpr.org,classicandperformancecar.com,clickhole.com,colliemail.com.au,colypointobserver.com.au,competitor.com,conservativeradio.com,coomaexpress.com.au,cootamundraherald.com.au,cowraguardian.com.au,crainsnewyork.com,crookwellgazette.com.au,crosswalk.com,dailyadvertiser.com.au,dailygazette.com,dailyliberal.com.au,dailyrecord.com,dandenongjournal.com.au,defenceweb.co.za,di.fm,digiday.com,donnybrookmail.com.au,downloadcrew.com,dunedintv.co.nz,dungogchronicle.com.au,easternriverinachronicle.com.au,edenmagnet.com.au,elliottmidnews.com.au,esperanceexpress.com.au,essentialmums.co.nz,examiner.com.au,eyretribune.com.au,fairfieldchampion.com.au,fastcocreate.com,fastcodesign.com,financialcontent.com,finnbay.com,forbesadvocate.com.au,frankstonweekly.com.au,gazettextra.com,gematsu.com,gemtvasia.com,gififly.com,gippslandtimes.com.au,gleninnesexaminer.com.au,globest.com,gloucesteradvocate.com.au,goodcast.org,goondiwindiargus.com.au,goulburnpost.com.au,greatlakesadvocate.com.au,grenfellrecord.com.au,guyraargus.com.au,hardenexpress.com.au,hawkesburygazette.com.au,hcn.org,hepburnadvocate.com.au,hillsnews.com.au,hispanicbusiness.com,huffingtonpost.ca,huffingtonpost.co.uk,huffingtonpost.co.za,huffingtonpost.com,huffingtonpost.com.au,huffingtonpost.in,humeweekly.com.au,huntervalleynews.net.au,i-dressup.com,imgur.com,inverelltimes.com.au,irishtimes.com,jewishjournal.com,juneesoutherncross.com.au,kansas.com,katherinetimes.com.au,kdow.biz,kkol.com,knoxweekly.com.au,labx.com,lakesmail.com.au,lamag.com,latrobevalleyexpress.com.au,legion.org,lithgowmercury.com.au,liverpoolchampion.com.au,livestrong.com,livetennis.com,macarthuradvertiser.com.au,macedonrangesweekly.com.au,macleayargus.com.au,magtheweekly.com,mailtimes.com.au,maitlandmercury.com.au,mandurahmail.com.au,manningrivertimes.com.au,manoramaonline.com,margaretrivermail.com.au,maribyrnongweekly.com.au,marinmagazine.com,maroondahweekly.com.au,meltonweekly.com.au,merimbulanewsonline.com.au,merredinmercury.com.au,metservice.com,mocospace.com,monashweekly.com.au,money1055.com,mooneevalleyweekly.com.au,moreechampion.com.au,movies4men.co.uk,mprnews.org,mtvindia.com,mudgeeguardian.com.au,murrayvalleystandard.com.au,muswellbrookchronicle.com.au,myallcoastnota.com.au,nambuccaguardian.com.au,naroomanewsonline.com.au,narrominenewsonline.com.au,nashvillescene.com,nationalgeographic.com,nationalreview.com,newcastlestar.com.au,northernargus.com.au,northerndailyleader.com.au,northweststar.com.au,nvi.com.au,nynganobserver.com.au,nytimes.com,oann.com,oberonreview.com.au,onetvasia.com,onlinegardenroute.co.za,oxygen.com,parenthood.com,parkeschampionpost.com.au,parramattasun.com.au,pch.com,peninsulaweekly.com.au,penrithstar.com.au,plasticsnews.com,portlincolntimes.com.au,portnews.com.au,portpirierecorder.com.au,portstephensexaminer.com.au,praguepost.com,psychologytoday.com,queanbeyanage.com.au,racingbase.com,radioguide.fm,readamericanfootball.com,readarsenal.com,readastonvilla.com,readbasketball.com,readbetting.com,readbournemouth.com,readboxing.com,readbrighton.com,readbundesliga.com,readburnley.com,readcars.co,readceltic.com,readchampionship.com,readchelsea.com,readcricket.com,readcrystalpalace.com,readeverton.com,readeverything.co,readfashion.co,readfilm.co,readfood.co,readfootball.co,readgaming.co,readgolf.com,readhorseracing.com,readhuddersfield.com,readhull.com,readinternationalfootball.com,readlaliga.com,readleicester.com,readliverpoolfc.com,readmancity.com,readmanutd.com,readmiddlesbrough.com,readmma.com,readmotorsport.com,readmusic.co,readnewcastle.com,readnorwich.com,readnottinghamforest.com,readolympics.com,readpl.com,readrangers.com,readrugbyunion.com,readseriea.com,readshowbiz.co,readsouthampton.com,readsport.co,readstoke.com,readsunderland.com,readswansea.com,readtech.co,readtennis.co,readtottenham.com,readtv.co,readussoccer.com,readwatford.com,readwestbrom.com,readwestham.com,readwsl.com,redsharknews.com,rhsgnews.com.au,riverinaleader.com.au,rollcall.com,rollingstoneaus.com,roxbydownssun.com.au,rubbernews.com,saitnews.co.za,sconeadvocate.com.au,sify.com,silverdoctors.com,singletonargus.com.au,smallbusiness.co.uk,sonychannel.co.za,sonychannelasia.com,sonymax.co.za,sonymoviechannel.co.uk,sonytv.com,southcoastregister.com.au,southernhighlandnews.com.au,southernweekly.com.au,southwestadvertiser.com.au,standard.net.au,star-telegram.com,stawelltimes.com.au,stmarysstar.com.au,stockandland.com.au,stonningtonreviewlocal.com.au,summitsun.com.au,suncitynews.com.au,sunjournal.com,sunraysiadaily.com.au,tennantcreektimes.com.au,tenterfieldstar.com.au,theadvocate.com,theadvocate.com.au,thebeachchannel.tv,thecatholicthing.org,thecourier.com.au,thecurrent.org,theflindersnews.com.au,theforecaster.net,theguardian.com.au,theherald.com.au,theislanderonline.com.au,theland.com.au,theleader.com.au,thenortherntimes.com.au,theridgenews.com.au,therural.com.au,thesportsmanchannel.com,thetriangle.org,tirebusiness.com,townandcountrymagazine.com.au,transcontinental.com.au,travelpulse.com,twincitiesbusinessradio.com,twitch.tv,ulladullatimes.com.au,vanityfair.com,victorharbortimes.com.au,villagesoup.com,waginargus.com.au,walchanewsonline.com.au,walworthcountytoday.com,washingtonexaminer.com,wauchopegazette.com.au,wellingtontimes.com.au,westcoastsentinel.com.au,westernadvocate.com.au,westernmagazine.com.au,whyallanewsonline.com.au,winghamchronicle.com.au,wollondillyadvertiser.com.au,woot.com,wsj.com,wyndhamweekly.com.au,yasstribune.com.au,yellow.co.ke,yellowpages.ca,ynaija.com,youngwitness.com.au##.advertisement
 ||ns1p.net^$third-party
 ||imgur.com/albumview.gif?
-||deployads.com^$third-party
 ||moatads.com^$third-party
 ||doubleclick.net/$third-party,domain=~bestbuy.ca
 ||collector-*.tvsquared.com^
@@ -457,7 +474,6 @@ _160_600.
 ||shoprunner.com^$third-party
 ||monetate.net^$third-party
 ||dotomi.com^$third-party
-||sonobi.com^$third-party
 ||cwkuki.com^$third-party
 ||appspot.com/api/track/
 ||turnto.com/webEvent/$third-party
