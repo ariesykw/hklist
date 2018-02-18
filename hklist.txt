@@ -4,6 +4,20 @@
 ! Expires: 1 days
 ! Homepage: https://github.com/ariesykw/hklist
 !/favicon.ico$image,third-party,domain=~reddit.com
+##.leftAds
+##a[href^="https://bs.serving-sys.com"]
+|http://ad.
+||scorecardresearch.com^
+||yahoo.com/b?
+/pagead2.
+||sam*.baby-kingdom.com^
+/advertisment/*
+||google-analytics.com/analytics.js
+||googletagmanager.com/gtag/$third-party
+@@*$stylesheet
+@@*/jquery-$script
+@@*/jquery.$script
+@@||fbcdn.net/rsrc.php/
 */ad/$domain=~www.xingk.cc|~iqiyi.com|~baby-kingdom.com
 youtube.com###video-masthead
 ###watch7-sidebar-ads
@@ -22,14 +36,11 @@ youtube.com###video-masthead
 ||reuters.com/reuters_bootstrap.js
 ||reuters.com/reuters_gpt_bootstrap*.js
 @@||segment.com/analytics.js/*/analytics.min.js$script
-@@*$stylesheet
-@@*/jquery-$script
 ##.masthead-ad-control
 ##.video-ads
 ##.text_ads
 ||pagefair.com^$third-party
 ||pagefair.net^$third-party
-||scorecardresearch.com^
 ||quantserve.com^$~object-subrequest,third-party
 ||3lift.com^$third-party
 ||imasdk.googleapis.com^$third-party
@@ -45,7 +56,6 @@ gearburn.com,marinmagazine.com,memeburn.com,motorburn.com,nhbr.com,scpr.org,shop
 ||adnxs.com^
 /prebid.$script,domain=~prebid.org
 ||1rx.io^$third-party
-||google-analytics.com/analytics.js
 ||googletagservices.com/tag/js/gpt.js$third-party
 @@||cloudfront.net/assets/$script,third-party
 ##.adsbox
@@ -55,11 +65,9 @@ gearburn.com,marinmagazine.com,memeburn.com,motorburn.com,nhbr.com,scpr.org,shop
 ||amazon-adsystem.com
 ||newrelic.com/
 ||log.pinterest.com^
-/pagead2.
 ||twitter.com/i/jot
 ||facebook.com*/impression.php
 @@||ad.doubleclick.net/favicon.ico$image
-@@||fbcdn.net/rsrc.php/
 ##.block-ad
 ##.topBannerAd
 */piwik.
@@ -73,8 +81,6 @@ gearburn.com,marinmagazine.com,memeburn.com,motorburn.com,nhbr.com,scpr.org,shop
 /pubads.
 /js/analytics.
 ||amung.us^$third-party
-||googletagmanager.com/gtag/$third-party
-@@*/jquery.$script
 ##.adv_box
 ||popads.net^$third-party
 /\:\/\/[a-z0-9]{5,32}\.(bid|com)\/[0-9A-Za-z]{2,9}\.(html?|css|js|aspx?|asp?).*[0-9]{10}/$third-party,script,stylesheet
@@ -123,9 +129,7 @@ gearburn.com,marinmagazine.com,memeburn.com,motorburn.com,nhbr.com,scpr.org,shop
 ||criteo.net^$third-party
 ###ad_text:not(textarea)
 ##div[id^="crt-"][style]
-|http://ad.
 ||prf.hn^$third-party
-||yahoo.com/b?
 |http://*.hk/ad/
 ||ysm.yahoo.com^
 ||price.com.hk/ec-discuss-widget.php
@@ -154,12 +158,9 @@ gearburn.com,marinmagazine.com,memeburn.com,motorburn.com,nhbr.com,scpr.org,shop
 ##.afs_ads
 /ping.gif?
 @@||p.jwpcdn.com^$script,third-party
-##.leftAds
 ##.right-ad
-##a[href^="https://bs.serving-sys.com"]
 */images/banner$domain=~ipo.chinairn.com|~www.shuame.com|~exp.qq.com
 /adserver/*
-||sam*.baby-kingdom.com^
 ||serving-sys.com^$third-party
 ||facebook.com/tr/?
 ###bottomAd
