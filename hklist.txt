@@ -5,9 +5,21 @@
 ! Homepage: https://github.com/ariesykw/hklist
 !/favicon.ico$image,third-party,domain=~reddit.com
 ##.leftAds
+##.Ads_4
+||akamai.net/chartbeat.
+||adnxs.com^
+.com/c.gif?
+/vglnk.js
+||media.$third-party,script,subdocument
+||rlcdn.com^$third-party
+||log.outbrain.com^
+||scorecardresearch.com^
+||twitter.com/i/jot
+@@*/jquery-$script
+@@*$stylesheet
+@@||fbcdn.net/rsrc.php/
 ##a[href^="https://bs.serving-sys.com"]
 |http://ad.
-||scorecardresearch.com^
 ||yahoo.com/b?
 /pagead2.
 ||hyz86.com^
@@ -17,18 +29,15 @@
 */ga.js^
 /images/ad/*
 ||xianliao.me/ads
-@@*$stylesheet
 @@*/jquery.$script
 ||dyncdn.me/static/20/js/expla*.js$domain=rarbg.is|rarbg.to|rarbg.unblocked.work|rarbgmirror.com
 ||statsy.net^$third-party
-@@*/jquery-$script
 @@||dyncdn.*/showads.js$script
 /play?refer=$popup
 ||sam*.baby-kingdom.com^
 /advertisment/*
 ||google-analytics.com/analytics.js
 ||googletagmanager.com/gtag/$third-party
-@@||fbcdn.net/rsrc.php/
 */ad/$domain=~www.xingk.cc|~iqiyi.com|~baby-kingdom.com|~edu-kingdom.com
 youtube.com###video-masthead
 ###watch7-sidebar-ads
@@ -55,7 +64,6 @@ youtube.com###video-masthead
 ||quantserve.com^$~object-subrequest,third-party
 ||3lift.com^$third-party
 ||imasdk.googleapis.com^$third-party
-||media.$third-party,script,subdocument
 ||crazyegg.com^$third-party
 ##.ad-panel
 gearburn.com,marinmagazine.com,memeburn.com,motorburn.com,nhbr.com,scpr.org,shop.com,techinsider.io,theonion.com,urbandictionary.com,ventureburn.com,wareable.com##.dfp
@@ -64,7 +72,6 @@ gearburn.com,marinmagazine.com,memeburn.com,motorburn.com,nhbr.com,scpr.org,shop
 ||sonobi.com^$third-party
 ||click.udimg.com^
 ||rubiconproject.com^$third-party
-||adnxs.com^
 /prebid.$script,domain=~prebid.org
 ||1rx.io^$third-party
 ||googletagservices.com/tag/js/gpt.js$third-party
@@ -76,7 +83,6 @@ gearburn.com,marinmagazine.com,memeburn.com,motorburn.com,nhbr.com,scpr.org,shop
 ||amazon-adsystem.com
 ||newrelic.com/
 ||log.pinterest.com^
-||twitter.com/i/jot
 ||facebook.com*/impression.php
 @@||ad.doubleclick.net/favicon.ico$image
 ##.block-ad
@@ -397,7 +403,6 @@ ctfile.com###alipay-qhb
 ||flickr.com/beacon_client_api_timings.gne
 ||flickr.com/beacon_page_timings.gne
 ||microsoft.com/collect/
-.com/c.gif?
 ||c.live.com^
 /analytics-ping.
 @@||office365.com^*/owa.Analytics.js$script
@@ -503,7 +508,6 @@ _160_600.
 .com/vanity/?
 ||cc.swiftype.com^
 ||liadm.com^$third-party
-||rlcdn.com^$third-party
 ||polarmobile.com^$third-party
 ||ml314.com^$third-party
 /omniture.$script
