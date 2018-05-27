@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! title: hklist
 ! Version: 20180527
 ! Expires: 1 days
-! Homepage: https://github.com/ariesykw/hklist
+! Title: hklist
+! Homepage: https://github.com/ariesykw/hklist/
 ###ad_2
 ###ad_6
 ###AD_banner
