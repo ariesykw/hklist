@@ -4,6 +4,18 @@
 ! Expires: 14 days
 ! Redirect: https://raw.githubusercontent.com/ariesykw/hklist/master/hklist.txt
 ! Version: 20180527
+msn.com##div[style*="visibility: visible;"]
+.com/c.gif?
+||metric-agent.i10c.net^
+.com/c.gif?
+@@||fbcdn.net/rsrc.php/
+@@||fbcdn.net/rsrc.php/
+@@||fbcdn.net/rsrc.php/
+@@||fbcdn.net/rsrc.php/
+@@||fbcdn.net/rsrc.php/
+@@||fbcdn.net/rsrc.php/
+@@||fbcdn.net/rsrc.php/
+@@||fbcdn.net/rsrc.php/
 ###ad_2
 ###ad_6
 ###AD_banner
