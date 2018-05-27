@@ -612,4 +612,3 @@ yahoo.com##.Feedback
 yahoo.com##a[href^="https://beap.gemini.yahoo.com/mbclk?"][target="_blank"]
 yahoo.com##div[class*="ads-"]
 yahoo.com##li[id^="ad-"]
-www.msn.com###aside
