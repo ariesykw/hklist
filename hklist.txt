@@ -38,6 +38,7 @@ msn.com##div[style*="visibility: visible;"]
 ###my-adsFPT
 ###sponsoredProducts2_feature_div
 ###tads.c
+www.msn.com###aside
 ###theAd
 ###top_ad_wrapper
 ###TOP_RIGHT_BOXAD
