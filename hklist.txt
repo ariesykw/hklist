@@ -38,7 +38,6 @@ msn.com##div[style*="visibility: visible;"]
 ###my-adsFPT
 ###sponsoredProducts2_feature_div
 ###tads.c
-www.msn.com###aside
 ###theAd
 ###top_ad_wrapper
 ###TOP_RIGHT_BOXAD
@@ -612,3 +611,4 @@ yahoo.com##.Feedback
 yahoo.com##a[href^="https://beap.gemini.yahoo.com/mbclk?"][target="_blank"]
 yahoo.com##div[class*="ads-"]
 yahoo.com##li[id^="ad-"]
+www.msn.com##.dynamicRRWrapper
