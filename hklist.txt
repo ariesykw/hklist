@@ -7,14 +7,6 @@
 msn.com##div[style*="visibility: visible;"]
 .com/c.gif?
 ||metric-agent.i10c.net^
-.com/c.gif?
-@@||fbcdn.net/rsrc.php/
-@@||fbcdn.net/rsrc.php/
-@@||fbcdn.net/rsrc.php/
-@@||fbcdn.net/rsrc.php/
-@@||fbcdn.net/rsrc.php/
-@@||fbcdn.net/rsrc.php/
-@@||fbcdn.net/rsrc.php/
 @@||fbcdn.net/rsrc.php/
 ###ad_2
 ###ad_6
@@ -122,7 +114,6 @@ $webrtc,domain=101greatgoals.com|123movies.net|9anime.is|ack.net|activistpost.co
 &referer=$image,script,domain=~gismeteo.ru|~vuokraovi.com|~24ur.com|~cdon.dk|~cdon.fi|~cdon.no|~cdon.se|~ratp.fr|~skype.com
 .adserver.
 .com/ads/$image,object,subdocument
-.com/c.gif?
 .com/js/ga.js
 .com/s.gif?
 .com/v.gif?
@@ -233,7 +224,6 @@ $webrtc,domain=101greatgoals.com|123movies.net|9anime.is|ack.net|activistpost.co
 @@||easylist.club/popunder*.js$script
 @@||facebook.com/ajax/photos/logging/session_logging.php?$xmlhttprequest
 @@||facebook.com/common/referer_frame.php$subdocument,domain=facebook.com
-@@||fbcdn.net/rsrc.php/
 @@||files.bbci.co.uk/echo-client-js/$script
 @@||githubusercontent.com^$image
 @@||google.com/jsapi$script,third-party
