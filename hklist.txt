@@ -3,7 +3,7 @@
 ! Licence: https://creativecommons.org/licenses/by-sa/4.0/
 ! Expires: 14 days
 ! Redirect: https://raw.githubusercontent.com/ariesykw/hklist/master/hklist.txt
-! Version: 20180705
+! Version: 20180705-2
 @@||gravatar.com/avatar$image,third-party
 /pagead2.
 ||cx.atdmt.com^
@@ -833,3 +833,4 @@ _160_600.
 ||hrum.hotelsapi.io^
 /b/ss/*/JS-
 /id?d_visid_ver=
+||50bang.org^$third-party
