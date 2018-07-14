@@ -3,7 +3,7 @@
 ! Licence: https://creativecommons.org/licenses/by-sa/4.0/
 ! Expires: 14 days
 ! Redirect: https://raw.githubusercontent.com/ariesykw/hklist/master/hklist.txt
-! Version: 20180706
+! Version: 20180714
 @@||gravatar.com/avatar$image,third-party
 /pagead2.
 ||cx.atdmt.com^
@@ -800,7 +800,6 @@ _160_600.
 ##.media-network-ad
 /optimizely.$domain=~optimizely.com
 ||hs-analytics.net^$third-party
-||adnxs.com/ut/$third-party
 @@/adbar/*$domain=outlook.live.com
 ||ssl-images-amazon.com/images/*/shazam/$domain=imdb.com
 ##.afs_ads
