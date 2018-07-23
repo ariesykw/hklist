@@ -3,7 +3,7 @@
 ! Licence: https://creativecommons.org/licenses/by-sa/4.0/
 ! Expires: 14 days
 ! Redirect: https://raw.githubusercontent.com/ariesykw/hklist/master/hklist.txt
-! Version: 20180720
+! Version: 20180723
 @@||gravatar.com/avatar$image,third-party
 /pagead2.
 @@||fbcdn.net/rsrc.php/
@@ -184,12 +184,7 @@ avgle.com,hotgirlclub.com,pornobae.com,xxxkingtube.com##img[src*=".php"]
 ||pussl48.com^$third-party
 @@||avgle.com/embed/$genericblock,generichide
 @@||google.com/recaptcha/$image
-ithome.com##.bx-recom2
-ithome.com##a[href*="/lapin."]
 ||dup.baidustatic.com^
-||ithome.com/file/js/money/
-ithome.com##.con-recom
-ithome.com##.sb_list > .bx
 /RenderLapinBlock?
 @@||count.taobao.com/counter$script
 @@||mmstat.com/eg.js$domain=1688.com|taobao.com|tmall.com|tudou.com|youku.com
@@ -599,3 +594,11 @@ _prebid_
 @@*/jquery-$script
 popup.js^$domain=~qzone.qq.com|~flvcd.com|~mgpyh.com|~baidu.com|~qidian.com|~mop.com|~gameapp.qq.com
 */ad_
+||www.youtube.com/annotations_invideo?$xmlhttprequest
+||unrulymedia.com^$third-party
+||addthis.com/
+||hm.baidu.com/
+@@||valf.atm.youku.com/vf?site=1&rst=mp4&
+@@||g.alicdn.com/$script,subdocument
+*/youku/*.mp4?$media,domain=youku.com|tudou.com
+*/ikuAdapterNew.js^$script,domain=youku.com|tudou.com
