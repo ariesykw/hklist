@@ -599,7 +599,6 @@ popup.js^$domain=~qzone.qq.com|~flvcd.com|~mgpyh.com|~baidu.com|~qidian.com|~mop
 ||hm.baidu.com/
 @@||valf.atm.youku.com/vf?site=1&rst=mp4&
 @@||g.alicdn.com/$script,subdocument
-*/youku/*.mp4?$media,domain=youku.com|tudou.com
 */ikuAdapterNew.js^$script,domain=youku.com|tudou.com
 ||static.criteo.net/images^$third-party
 ||intentarget.com^$third-party
