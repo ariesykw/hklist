@@ -3,7 +3,20 @@
 ! Licence: https://creativecommons.org/licenses/by-sa/4.0/
 ! Expires: 14 days
 ! Redirect: https://raw.githubusercontent.com/ariesykw/hklist/master/hklist.txt
-! Version: 20180723
+! Version: 20180930
+*/ads.
+||scorecardresearch.com^
+@@*$stylesheet
+/cpro/ui/*
+||hm.baidu.com/
+||tajs.qq.com/$domain=~wuxia.qq.com
+###content-ad
+||cbjs.baidu.com^
+||nsclick.baidu.com/$domain=~www.hao123.com
+||bdstatic.com/tb/cms/*%E5%BA%95%E9%83%A8
+*/piwik.
+/adjs/*
+||51.la^
 @@||gravatar.com/avatar$image,third-party
 /pagead2.
 @@||fbcdn.net/rsrc.php/
@@ -36,7 +49,6 @@ youtube.com###video-masthead
 ###watch7-sidebar-ads
 ##.video-ads
 ##.ytp-ad-progress-list
-/api/ads/*
 ||youtube.com/get_midroll_
 ||youtube.com/pagead/
 @@||google.com/jsapi$script,third-party
@@ -55,7 +67,6 @@ yahoo.com##li[id^="ad-"]
 ||yimg.com/gemini/pr/video_
 .adserver.
 ||yimg.com/rq/darla/$domain=yahoo.com
-/moneyball/ads/*
 .ace.advertising.
 ||atwola.com^$third-party
 @@||yimg.com/rq/darla/*/g-r-min.js$domain=yahoo.com
@@ -63,7 +74,6 @@ yahoo.com##li[id^="ad-"]
 yahoo.com###ysm-umu
 yahoo.com##.Feedback
 yahoo.com##.darla-container
-/curveball/ads/*
 @@||yimg.com^*/react-share-buttons.
 @@||s.yimg.com/ja/ap/*/jquery.$domain=hk.news.yahoo.com|hk.yahoo.com|tw.news.yahoo.com|tw.stock.yahoo.com|tw.yahoo.com
 yahoo.com##a[href^="https://beap.gemini.yahoo.com/mbclk?"][target="_blank"]
@@ -107,14 +117,12 @@ uwants.com##.showpx1
 @@||nexac.com/e/getdata.xgi$xmlhttprequest,domain=twitch.tv
 @@||2mdn.net/|$xmlhttprequest,domain=twitch.tv
 ##.companion-ad
-||cbjs.baidu.com^
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_right > table > tbody > tr > td > div:not(#con-ar)
 ||sp*.baidu.com^*.gif?
 ||bdstatic.com^*/plugins/every_cookie_
 ##.right-ad
 ||baidu.com/api/wikiui/guesslike?
 /adpic/*
-/cpro/ui/*
 ||bdstatic.com^*/js/m.js
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > div[class][style]:not([id])
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###fixed_bar
@@ -123,9 +131,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com###content_left > di
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###pagelet_frs-aside\/pagelet\/ad
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###pagelet_search\/pagelet\/search_ad
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.firework-wrap
-||bdstatic.com/tb/cms/*%E5%BA%95%E9%83%A8
 @@||bdstatic.com/??*,*,*,
-###content-ad
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###search_baidu_promote
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.j_l_post[data-field*="\"user_name\":\"\\u4e3f\\u5929\\u4e36\\u4e4b\\u6b87\""]:not([data-field*="\"user_id\":1180601200,"])
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.tb_poster_placeholder
@@ -210,7 +216,6 @@ _300x250.
 ||discuz.gtimg.cn/cloud/scripts/discuz_tips.js
 /adx.$domain=~adx.uk.com|~adx.wowfi.com
 ||adsfactor.net^$third-party
-.com/ads/$image,object,subdocument
 ||kiwihk.net^$third-party
 ||hkgolden.com/hkg.js
 ||rtax.criteo.com^$third-party
@@ -309,7 +314,6 @@ $webrtc,domain=101greatgoals.com|123movies.net|9anime.is|ack.net|activistpost.co
 /acmsd/*
 /adbar.$domain=~adbar.fi|~adbar.io
 /adbar/*
-/adjs/*
 /adman.$domain=~adman.ee|~adman.studio
 /adsense/*
 /adserver-
@@ -320,7 +324,6 @@ $webrtc,domain=101greatgoals.com|123movies.net|9anime.is|ack.net|activistpost.co
 /dfpads.
 /full-page-script.$script
 /ggao/*
-/images/ads/*
 /mbads?
 /mod_ad/*
 /mydisplay.$domain=400gb.com|bego.cc|ctfile.com|pipipan.com
@@ -415,7 +418,6 @@ _120x60_
 ||teads.tv^$third-party
 ||tidaltv.com^$third-party
 ||tribalfusion.com^$third-party
-||twitch.tv^*/ads/
 ||unimhk.com^$third-party
 ||velocecdn.com^
 ||viglink.com/images/pixel.gif
@@ -519,7 +521,6 @@ _160_600.
 ##.adsblock
 ||postrelease.com^$third-party
 .com/ad/$~third-party,domain=~blogs.technet.microsoft.com|~channel4.com|~cspace.com|~linkedin.com|~mediaplex.com|~online.wsj.com
-||turner.com^*/ads/
 /affiliate.linker/*
 /adzones.
 ###adBanner
@@ -533,7 +534,6 @@ _160_600.
 ||dianomi.com^$third-party
 ||trustx.org^$third-party
 ||3lift.com^$third-party
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=allcatvideos.com|audiomack.com|beinsports.com|bloomberg.com|cbc.ca|cbsnews.com|cbssports.com|cnet.com|complex.com|cwtv.com|gamejolt.com|healthmeans.com|indystar.com|mobg.io|news.sky.com|play.ludigames.com|player.performgroup.com|powr.com|rumble.com|snopes.com|thestreet.com|theverge.com|usatoday.com|video.foxbusiness.com|video.foxnews.com|vidyomani.com|yiv.com
 @@||imasdk.googleapis.com/js/core/bridge*.html$subdocument,domain=~spotify.com
 /js/ads_
 /advertorials/*
@@ -563,12 +563,10 @@ $websocket,domain=123movies-proxy.ru|123movies.cz|123movies.gs|123movies.is|123m
 /\.(accountant|bid|click|club|com|cricket|date|download|faith|link|loan|lol|men|online|party|racing|review|science|site|space|stream|top|trade|webcam|website|win|xyz|com)\/(([0-9]{2,9})(\.|\/)(css|\?)?)$/$script,stylesheet,third-party,xmlhttprequest
 /ad-specs.
 ||udn.com.tw/upf/*_banners/BD/
-@@*$stylesheet
 ||google-analytics.com
 ||adserver.
 ||adnxs.com^
 _prebid_
-*/ads.
 ###ad_rightslot
 ###ad_leftslot
 ###ad_houseslot_b
@@ -577,7 +575,6 @@ _prebid_
 ||turn.com^$third-party
 ||sitescout.com^$third-party
 ||ad.
-||scorecardresearch.com^
 ||redditstatic.com/moat/
 ||googleadservices.com
 /prebid-
@@ -586,14 +583,12 @@ _prebid_
 ||com/ads
 /insideAD.
 */ad.
-~mail.google.com##.adsbygoogle,div.ads
 @@*/jquery-$script
 popup.js^$domain=~qzone.qq.com|~flvcd.com|~mgpyh.com|~baidu.com|~qidian.com|~mop.com|~gameapp.qq.com
 */ad_
 ||www.youtube.com/annotations_invideo?$xmlhttprequest
 ||unrulymedia.com^$third-party
 ||addthis.com/
-||hm.baidu.com/
 @@||valf.atm.youku.com/vf?site=1&rst=mp4&
 @@||g.alicdn.com/$script,subdocument
 */ikuAdapterNew.js^$script,domain=youku.com|tudou.com
@@ -609,7 +604,6 @@ ettoday.net##div[id^="abp"]
 ||ml314.com^$third-party
 ||bidder.criteo.com^$third-party
 /300x250_
-##.ad,div.ad960-90,div.ad-side,table.adtable,div.a_mu,div.a_h,div.ad_pic,div.wp.a_f,div.wp.a_t,div.a_pb,div.a_pt,div.a_pr,div.a_cn,#ggPar,#side-ad,#preAdContent,div.adbox
 ||nexac.com^$third-party
 ||i.skimresources.com^$third-party
 */ad/$domain=~www.xingk.cc|~iqiyi.com
@@ -638,3 +632,26 @@ msn.com##.widead
 ##div[id^="ADV-SLOT-"]
 msn.com##iframe:not([src])
 @@?&$image,domain=msn.com
+*/ads/
+||ad-delivery.net^$third-party
+||rxthdr.com^$third-party
+||tinypass.com^$third-party
+||taboola.com/
+||fwmrm.net^$~object-subrequest,third-party
+/\.com/.*[a-f0-9]{110}/$script,image,third-party,domain=~parship.com|~feedbin.com|~aliexpress.com|~alipay.com|~bilibili.com|~namu.wiki|~fastmail.com
+||dynamicyield.com^$third-party
+*/i.js^$script,third-party
+@@||nbcudigitaladops.com/hosted/$script
+@@||npttech.com/advertising.js$script
+/overture/*$script,subdocument
+###adsense
+||brand-display.com^$third-party
+/initialize_ads-
+&advertiserid=
+||quora.com/_/$image
+||2mdn.net^$~object-subrequest,third-party
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=allcatvideos.com|audiomack.com|beinsports.com|blastingnews.com|bloomberg.com|cbc.ca|cbsnews.com|cbssports.com|cnet.com|complex.com|cwtv.com|gamejolt.com|healthmeans.com|indystar.com|mobg.io|news.sky.com|play.ludigames.com|player.performgroup.com|powr.com|rumble.com|snopes.com|thestreet.com|theverge.com|usatoday.com|video.foxbusiness.com|video.foxnews.com|vidyomani.com|yiv.com
+/js/analytics/*
+*/images/banner$domain=~ipo.chinairn.com|~www.shuame.com|~exp.qq.com
+/reqwads?
+||optimix.asia^
