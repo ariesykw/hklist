@@ -4,6 +4,11 @@
 ! Expires: 14 days
 ! Redirect: https://raw.githubusercontent.com/ariesykw/hklist/master/hklist.txt
 ! Version: 20181001
+||biz.weibo.com^
+||sbeacon.sina.com.cn/
+/adfront/*
+@@*$stylesheet
+@@||sinajs.cn/open/analytics/js/suda.js$domain=weibo.com|~widget.weibo.com
 ##.text_ads
 ||viglink.com/api/insert^$third-party
 ||viglink.com/api/optimize^$third-party
@@ -24,7 +29,6 @@
 ||facebook.com/audiencenetwork/$third-party
 ||googletagservices.com/tag/js/gpt.js$third-party
 @@||ads.servebom.com/tmnhead.js
-@@*$stylesheet
 @@||google.com/jsapi$script,third-party
 ||static.criteo.net/images^$third-party
 ##div[id^="div-gpt-ad"]
