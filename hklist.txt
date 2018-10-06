@@ -4,6 +4,7 @@
 ! Expires: 14 days
 ! Redirect: https://raw.githubusercontent.com/ariesykw/hklist/master/hklist.txt
 ! Version: 20181001
+_show_ads.
 yahoo.com##.Feedback
 yahoo.com##.darla-container
 yahoo.com##.js-stream-content > div > div > div > h3 > a[href^="https://hk.promotions."]
