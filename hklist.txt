@@ -4,6 +4,17 @@
 ! Expires: 14 days
 ! Redirect: https://raw.githubusercontent.com/ariesykw/hklist/master/hklist.txt
 ! Version: 20190805
+/adservice.$domain=~adservice.io
+||google.*/client_204?
+||google.*/gen_204?$~xmlhttprequest
+||rlcdn.com^$third-party
+||scorecardresearch.com^$third-party
+||demdex.net^$third-party
+||myvisualiq.net^$third-party
+||fastly-insights.com^$third-party
+||google-analytics.com/analytics.js
+@@||google.com/recaptcha/$script,xmlhttprequest
+@@||gstatic.com/recaptcha/$image,script
 /sa.gif?
 /cpro/ui/*
 ||dup.baidustatic.com^
@@ -23,7 +34,6 @@
 ||google.com/pagead/
 ||youtube.com/*_204?$~xmlhttprequest
 -pagead-id.
-/adservice.$domain=~adservice.io
 /generate_204$image
 /pagead2.
 ||www.youtube.com/annotations_invideo?$xmlhttprequest
@@ -33,7 +43,6 @@
 @@||google.com/jsapi$script,third-party
 @@||youtube.com/api/stats/playback?$image,object-subrequest
 @@||youtube.com/api/stats/watchtime?$image,domain=youtube.com
-||google.*/gen_204?$~xmlhttprequest
 ||adtechus.com^$third-party
 /admax/*
 ||bats.video.yahoo.com^
@@ -76,8 +85,6 @@
 /300x250_
 /audience-extraction.js
 /prebid_$script
-@@||google.com/recaptcha/$script,xmlhttprequest
-@@||gstatic.com/recaptcha/$image,script
 @@||uwants.com/include/*/swfaddress.js
 ||impactradius-go.com^$third-party
 /adnex.
@@ -793,7 +800,6 @@ _ads?
 ||imp.appledaily.com^
 /addlog/?
 ||2mdn.net^$~object,third-party
-||scorecardresearch.com^$third-party
 /fingerprint2.min.js
 /fingerprint.min.js
 /prebid.$domain=~prebid.org
