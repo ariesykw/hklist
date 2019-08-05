@@ -4,6 +4,8 @@
 ! Expires: 14 days
 ! Redirect: https://raw.githubusercontent.com/ariesykw/hklist/master/hklist.txt
 ! Version: 20190805
+||cnzz.com^$third-party
+||woozooo.com/img/m*.js
 /adservice.$domain=~adservice.io
 ||google.*/client_204?
 ||google.*/gen_204?$~xmlhttprequest
