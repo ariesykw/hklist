@@ -3,7 +3,13 @@
 ! Licence: https://creativecommons.org/licenses/by-sa/4.0/
 ! Expires: 14 days
 ! Redirect: https://raw.githubusercontent.com/ariesykw/hklist/master/hklist.txt
-! Version: 20190804
+! Version: 20190805
+/sa.gif?
+/cpro/ui/*
+||dup.baidustatic.com^
+/hitcount/*
+||hm.baidu.com^$third-party
+/trans/logger.js
 ||amazon-adsystem.com^$third-party
 ||imrworldwide.com^$third-party
 ||client-event-reporter.twitch.tv^
@@ -265,7 +271,6 @@ yahoo.com##li[id^="ad-"]
 ##.AdBox
 /acmsd/*
 */ads.
-/cpro/ui/*
 ||tajs.qq.com/$domain=~wuxia.qq.com
 ###content-ad
 ||cbjs.baidu.com^
@@ -381,7 +386,6 @@ $script,third-party,domain=0dt.net|123videos.tv|171gifs.com|1proxy.de|2ddl.downl
 avgle.com,hotgirlclub.com,pornobae.com,xxxkingtube.com##img[src*=".php"]
 ||pussl48.com^$third-party
 @@||google.com/recaptcha/$image
-||dup.baidustatic.com^
 /RenderLapinBlock?
 @@||count.taobao.com/counter$script
 @@||mmstat.com/eg.js$domain=1688.com|taobao.com|tmall.com|tudou.com|youku.com
