@@ -4,17 +4,26 @@
 ! Expires: 14 days
 ! Redirect: https://raw.githubusercontent.com/ariesykw/hklist/master/hklist.txt
 ! Version: 20190806
+/adservice.$domain=~adservice.io
 /generate_204$image
 /googleads.$domain=~googleads.blog|~googleads.media
+/pagead2.
+/securepubads.
+||doubleclick.net^$third-party,domain=92q.com|abc-7.com|addictinggames.com|allbusiness.com|bizjournals.com|bloomberg.com|bnn.ca|boom92houston.com|boom945.com|boomphilly.com|break.com|cbc.ca|cbs19.tv|cbs3springfield.com|cbslocal.com|complex.com|dailymail.co.uk|darkhorizons.com|doubleviking.com|edmunds.com|euronews.com|extratv.com|fandango.com|fox19.com|fox5vegas.com|gorillanation.com|hawaiinewsnow.com|hellobeautiful.com|hiphopnc.com|hot1041stl.com|hothiphopdetroit.com|hotspotatl.com|hulu.com|imdb.com|indiatimes.com|indyhiphop.com|ipowerrichmond.com|joblo.com|kcra.com|kctv5.com|ketv.com|koat.com|koco.com|kolotv.com|kpho.com|kptv.com|ksat.com|ksbw.com|ksfy.com|ksl.com|kypost.com|kysdc.com|live5news.com|livestation.com|livestream.com|metro.us|metronews.ca|miamiherald.com|my9nj.com|myboom1029.com|mycolumbuspower.com|nbcrightnow.com|neatorama.com|necn.com|neopets.com|news.com.au|news4jax.com|newshub.co.nz|newsone.com|nintendoeverything.com|oldschoolcincy.com|pagesuite-professional.co.uk|pandora.com|play.it|player.theplatform.com|radio.com|radionowindy.com|rottentomatoes.com|sbsun.com|shacknews.com|sk-gaming.com|ted.com|thebeatdfw.com|theboxhouston.com|theglobeandmail.com|tv2.no|ustream.tv|wapt.com|washingtonpost.com|wate.com|wbaltv.com|wcvb.com|wdrb.com|wdsu.com|wflx.com|wfmz.com|wfsb.com|wgal.com|whdh.com|wired.com|wisn.com|wiznation.com|wlky.com|wlns.com|wlwt.com|wmur.com|wnem.com|wowt.com|wral.com|wsj.com|wsmv.com|wsvn.com|wtae.com|wthr.com|wxii12.com|wyff4.com|yahoo.com|youtube-nocookie.com|youtube.com|zhiphopcleveland.com
 /pagead/lvz?
 ||google.*/gen_204?$~xmlhttprequest
 ||google.com/pagead/
+/api/ads/*
 ||youtube.com/*_204?$~xmlhttprequest
+||youtube.com/get_midroll_
+||youtube.com/ptracking?
 /log_event?
 -pagead-id.
+@@||google.com/jsapi$script,third-party
+@@||youtube.com/api/stats/playback?$image,object-subrequest
+@@||youtube.com/api/stats/watchtime?$image,domain=youtube.com
 ||cnzz.com^$third-party
 ||woozooo.com/img/m*.js
-/adservice.$domain=~adservice.io
 ||google.*/client_204?
 ||rlcdn.com^$third-party
 ||scorecardresearch.com^$third-party
@@ -35,17 +44,10 @@
 ||client-event-reporter.twitch.tv^
 /ping.gif?
 ||imasdk.googleapis.com^$third-party
-/securepubads.
 ||spade.twitch.tv^$websocket
 ||google-analytics.com
 @@||adservice.google.*/adsid/integrator.js$domain=twitch.tv
-/pagead2.
 ||www.youtube.com/annotations_invideo?$xmlhttprequest
-||youtube.com/get_midroll_
-||youtube.com/ptracking?
-@@||google.com/jsapi$script,third-party
-@@||youtube.com/api/stats/playback?$image,object-subrequest
-@@||youtube.com/api/stats/watchtime?$image,domain=youtube.com
 ||adtechus.com^$third-party
 /admax/*
 ||bats.video.yahoo.com^
