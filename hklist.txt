@@ -3,12 +3,19 @@
 ! Licence: https://creativecommons.org/licenses/by-sa/4.0/
 ! Expires: 14 days
 ! Redirect: https://raw.githubusercontent.com/ariesykw/hklist/master/hklist.txt
-! Version: 20190805
+! Version: 20190806
+/generate_204$image
+/googleads.$domain=~googleads.blog|~googleads.media
+/pagead/lvz?
+||google.*/gen_204?$~xmlhttprequest
+||google.com/pagead/
+||youtube.com/*_204?$~xmlhttprequest
+/log_event?
+-pagead-id.
 ||cnzz.com^$third-party
 ||woozooo.com/img/m*.js
 /adservice.$domain=~adservice.io
 ||google.*/client_204?
-||google.*/gen_204?$~xmlhttprequest
 ||rlcdn.com^$third-party
 ||scorecardresearch.com^$third-party
 ||demdex.net^$third-party
@@ -32,16 +39,10 @@
 ||spade.twitch.tv^$websocket
 ||google-analytics.com
 @@||adservice.google.*/adsid/integrator.js$domain=twitch.tv
-/pagead/lvz?
-||google.com/pagead/
-||youtube.com/*_204?$~xmlhttprequest
--pagead-id.
-/generate_204$image
 /pagead2.
 ||www.youtube.com/annotations_invideo?$xmlhttprequest
 ||youtube.com/get_midroll_
 ||youtube.com/ptracking?
-/log_event?
 @@||google.com/jsapi$script,third-party
 @@||youtube.com/api/stats/playback?$image,object-subrequest
 @@||youtube.com/api/stats/watchtime?$image,domain=youtube.com
